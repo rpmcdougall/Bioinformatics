@@ -1,2 +1,1 @@
-- read and complete CS sections and go back and solve clump
-  - Figure Out NumberToPattern implementaiton
+- Solve Clumping exercise using dictionaries instead to speed it up for submission.
