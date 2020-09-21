@@ -7,3 +7,4 @@ def GenomePositions(Pattern, Genome):
 
 
 print(GenomePositions("ATGATCAAG", open("Vibrio_cholerae.txt", "r").read()))
+
