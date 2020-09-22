@@ -1,10 +1,10 @@
 def hamming_distance(p, q):
-  mismatches = 0
-  for i in range(len(p)):
-    if p[i] != q[i]:
-      mismatches += 1
-      
-  return mismatches
+    mismatches = 0
+    for i in range(len(p)):
+        if p[i] != q[i]:
+            mismatches += 1
+
+    return mismatches
 
 
 def PatternCount(text, pattern, d):
@@ -16,4 +16,4 @@ def PatternCount(text, pattern, d):
     return count
 
 
-print(PatternCount("AGCTGGTAAGGTGGGGTAATAGGAACCCCCCAGACTTAGGTTCCCCTACGCACCTGTGAAAATGCTCTCTCGCTGGGTATTTTGTCGCGACGCTTAAATCGGTACTTGCACATCTCATTAGCGTAGCTTACGCTAGCTGACTAGGTTTTGAAATAGTAACATCAAATCAGTTTACCATGTGCCCCAATATGATGCTAATGAAGAAGCCTTCATGCTTCTCGGCATGCGGATTGATATGGTTGTGACGAGTATAAAAAACTGCTGATCTAGGCTGTCGGGACGACATGGAATCTGTTCACGAACACTAAGCTTATTGTCTGTTACCGCTCGACCGGTGCCACTGTAAAGCCGCATGGGTTGCCGGCAAC", "GACGCTT", 2))
+print(PatternCount("CATGCCATTCGCATTGTCCCAGTGA", "CCC", 2))
